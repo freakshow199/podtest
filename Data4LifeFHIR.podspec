@@ -27,7 +27,7 @@ Pod::Spec.new do |spec|
   spec.description  = <<-DESC
                    DESC
 
-  spec.homepage     = "http://EXAMPLE/RFC2046"
+  spec.homepage     = "https://github.com/freakshow199/podtest"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -52,9 +52,6 @@ Pod::Spec.new do |spec|
   #  profile URL.
   #
 
-  spec.author             = { "Keven Zimmermann" => "" }
-  # Or just: spec.author    = "Keven Zimmermann"
-
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
   #  If this Pod runs only on iOS or OS X, then specify the platform and
@@ -77,7 +74,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "http://EXAMPLE/RFC2046.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "git@github.com:freakshow199/podtest.git", :tag => "#{spec.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
